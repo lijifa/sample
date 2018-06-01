@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class StaticPagesController extends Controller
 {
     public function home(){
-    	return '主页';
+    	return '主页页面';
     }
 
     public function help(){
