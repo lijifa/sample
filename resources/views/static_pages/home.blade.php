@@ -1,17 +1,17 @@
 @extends('layouts.default')
+
 @section('title','home')
 @section('content')
-    <div class="content">
-        <div class="title m-b-md" style="color: red;font-weight: bold;">
-           这里是首页
-        </div>
-
-        <div class="links">
-            <a href="https://laravel.com/docs">Documentation</a>
-            <a href="https://laracasts.com">Laracasts</a>
-            <a href="https://laravel-news.com">News</a>
-            <a href="https://forge.laravel.com">Forge</a>
-            <a href="https://github.com/laravel/laravel">GitHub</a>
-        </div>
-    </div>
+  <div class="jumbotron">
+    <h1>Hello Laravel</h1>
+    <p class="lead">
+      你现在所看到的是 <a href="https://laravel-china.org/courses/laravel-essential-training-5.1">Laravel 入门教程</a> 的示例项目主页。
+    </p>
+    <p>
+      一切，将从这里开始。
+    </p>
+    <p>
+      <a class="btn btn-lg btn-success" href="{{route('signup')}}" role="button">现在注册</a>
+    </p>
+  </div>
 @stop
